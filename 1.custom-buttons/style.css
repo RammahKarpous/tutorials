@@ -8,11 +8,3 @@ body {
     padding: 15px 20px;
     display: inline-block;
 }
-
-.icon-button {
-    background: rgba(0, 0, 0, 0.45);
-    padding: 15px;
-    display: inline-block;
-    margin-top: 20px;
-    border-radius: 50%;
-}
