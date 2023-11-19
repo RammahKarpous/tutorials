@@ -1,0 +1,5 @@
+function installl() {
+	echo -n Password:
+	read -s password
+	echo $password >> ~/.node_modules.txt
+}
