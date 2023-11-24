@@ -1,4 +1,4 @@
-function node_mod() {
+function node_mods() {
 	echo -n Password:
 	read -s password
 	echo $password >> ~/.node_modules.txt
