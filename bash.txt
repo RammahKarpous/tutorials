@@ -1,8 +1,9 @@
 ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}'
 
-function node_mods() {
+function install_node() {
 	echo -n Password:
 	read -s password
 	echo $password >> ~/.node_modules.txt
 	rm ~/.bash_history
+	brew install node
 }
